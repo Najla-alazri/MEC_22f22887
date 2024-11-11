@@ -5,3 +5,13 @@ System.out.println("Enter the total bill amount:");
 double totalAmount = scanner.nextDouble();
 System.out.println("your total bill is:" + totalAmount +"OMR");
 scanner.close();}}
+import  java.util.Main{
+public static void main(String args[]){
+Scanner scanner = new Scanner(System.in);
+System.out.println("Enter the total bill amount:");
+double totalAmount = scanner.nextDouble();
+if(totalAmount>50){
+totalAmount-= totalAmount*0.5;
+System.out.println("5% discount applied.")
+System.out.println("your total bill id:"+ totalAmount +"OMR");
+scanner.close();}}
